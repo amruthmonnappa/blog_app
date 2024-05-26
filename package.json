@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@portabletext/react": "^3.0.18",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-slot": "^1.0.2",
+    "@sanity/image-url": "^1.0.2",
+    "@tailwindcss/typography": "^0.5.12",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-react": "^0.322.0",

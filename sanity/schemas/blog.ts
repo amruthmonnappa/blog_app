@@ -16,6 +16,7 @@ export default {
       type: 'slug',
       options: {
         source: 'title',
+        
       }
     },
     {
