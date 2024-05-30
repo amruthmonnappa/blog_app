@@ -4,7 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "./components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 import Navbar from "./components/Navbar";
-
+import { Analytics } from "@vercel/analytics/react";
 export const metadata: Metadata = {
   title: "Dr Framez",
   description: "Your ultimate Framework Guide",
@@ -26,6 +26,7 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
